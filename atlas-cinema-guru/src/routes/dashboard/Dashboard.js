@@ -6,7 +6,6 @@ const Dashboard = ({ userUsername, setIsLoggedIn }) => {
     return (
         <div>
             <Header userUsername={userUsername} setIsLoggedIn={setIsLoggedIn} />
-            {/* Add other elements here */}
         </div>
     );
 };
